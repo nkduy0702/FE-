@@ -1,0 +1,92 @@
+body{
+	background: url('../data/images/background.jpg');
+	background-repeat: no-repeat ;
+	background-size: cover;
+}
+
+#wrapper {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#form-login {
+	max-width: 400px;
+	background: rgba(84, 156, 255, 0.6) ;
+	flex-grow: 1;
+	padding: 40px 40px 50px;
+	box-shadow: 0px 0px 17px 2px  rgba(255, 255, 255, 0.8) ;
+}
+
+.form-heading {
+	font-size: 250%;
+	color: white;
+	text-align: center;
+	margin-bottom: 20%;
+}
+.form-group{
+	border-bottom: 1px solid #fff;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	color: white;
+	display: flex;
+}
+.form-group.invalid {
+	border-bottom: 2px solid red;
+}
+.form-group.success span i{
+	color: #a9ff00;
+	
+}
+.form-group i{
+	padding: 4px;
+
+}
+.form-input {
+	background: transparent;
+	border: 0;
+	outline: 0;
+	color: rgb(45, 245, 5);
+	font-size: 125%;
+	padding: 4px;
+}
+.form-input::placeholder {
+	color : white;
+}
+
+.form-submit {
+	background: transparent;
+	border: 1px solid white;
+	color: white;
+	width: 100%;
+	text-transform: uppercase;
+	padding: 5% 10%;
+	transition: 0.25s ease-in-out;
+}
+
+.form-submit:hover{
+	cursor: pointer;
+	background-color: rgb(45, 245, 5);
+	font-size: 100%;
+	font-weight: 700;
+}
+#other {
+	display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 16px;
+}
+}
+#other h3{
+	color : white;
+}
+#other i{
+	padding-right: 40%;
+	font-size: 210%;
+	transition: 0.45s ease-in-out;
+}
+#other i:hover{
+	font-size: 270%;
+	
+}

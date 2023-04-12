@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="shortcut icon" href="./data/images/iphone-icon.icon.ico">
+    <link rel="stylesheet" href="./CSS/index-style.css">
+	<link rel="stylesheet" href="./CSS/signIn-style.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+	<meta charset="UTF-8">
+	<title> Login </title>
+</head>
+
+<body>
+	<div id="header">
+        <div class="header__controls">
+            <div class="logo"> 
+                <a href="./index.html" class="logo__link">
+                    <i class="fab fa-apple logo__iphone"></i>
+                </a>
+            </div>
+            <div class="navbar">
+                <a class="navbar__items" href="./index.html">HOME</a>
+                <a class="navbar__items" href="https://www.apple.com/iphone/">THÔNG TIN</a>
+                <a class="navbar__items" href="#footer">LIÊN HỆ</a>
+                <a class="navbar__items" href="./signIn.html">ĐĂNG NHẬP</a>
+                <a class="navbar__items" href="./signup.html">ĐĂNG KÝ</a>
+				<a class="navbar__items" href="">THÊM</a>
+            </div>
+        </div>    
+        <div class="header__search">
+            <i class="fas fa-search search__icon"></i>
+        </div> 
+		<div class="header__list">
+            <i class="fas fa-list-ul"></i>
+        </div>    
+    </div> 
+	 <!-- List resonsive -->
+	 <div id="list" class="nomal">
+        <div class="list__container">
+            <div class="list__close">
+                <i class="fas fa-times"></i>
+            </div>
+            <a href="https://www.apple.com/iphone/" class="list__item">THÔNG TIN</a>
+            <a href="#footer" class="list__item">LIÊN HỆ</a>
+            <a href="./signIn.html" class="list__item">ĐĂNG NHẬP</a>
+            <a href="./signup.html" class="list__item">ĐĂNG KÝ</a>
+            <a href="./iphone13.html" class="list__item">IPHONE 13</a>
+            <a href="./iphone12.html" class="list__item">IPHONE 12</a>
+            <a href="./iphone11.html" class="list__item">IPHONE 11</a>
+            <a href="./iphone10.html" class="list__item">IPHONE 10</a>
+            <a href="./iphone8.html" class="list__item">IPHONE 8</a>
+        </div>
+    </div>  
+	
+	<div id="wrapper">
+		<form id="form-login">
+			<h1 class="form-heading" > Đăng Nhập </h1>
+			<div class="form-group">
+				<i class="far fa-user"></i>
+				<input type="text" class="form-input" placeholder="Tên Đăng Nhập" required>
+				<span class="form-msg"></span>
+			</div>
+			<div class="form-group">
+				<i class="fal fa-key"></i>
+				<input type="password" class="form-input" placeholder="Mật Khẩu" required>
+				<span class="form-msg"></span>
+			</div>
+			<input type="Submit" class ="form-submit" value="Đăng Nhập">
+			<div id="other">
+				<h3>Đăng nhập bằng :</h3>
+				<a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+				<a href="https://accounts.google.com/"><i class="fab fa-google"></i></a>
+			</div>	
+		</form>
+	</div>
+</body>
+<script src="./JS/validation-SignIn.js"></script>
+<script src="./JS/responsive-list.js"></script>
+</html>
